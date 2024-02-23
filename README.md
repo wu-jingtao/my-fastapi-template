@@ -1,2 +1,2 @@
-# my-python-template
-我的 Python 项目模板
+# my-fastapi-template
+我的 FastAPI 项目模板

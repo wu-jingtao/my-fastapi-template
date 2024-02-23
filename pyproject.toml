@@ -1,18 +1,18 @@
 [tool.poetry]
-name = "my-python-template"
+name = "my-fastapi-template"
 version = "0.1.0"
 description = "项目简介"
 license = "MIT"
 authors = ["wujingtao <601595686@qq.com>"]
 readme = "README.md"
-homepage = "https://github.com/wu-jingtao/my-python-template"
-repository = "https://github.com/wu-jingtao/my-python-template"
-documentation = "https://github.com/wu-jingtao/my-python-template"
-keywords = ["my-python-template"]
-packages = [{include = "my-python-template", from = "src"}]
+homepage = "https://github.com/wu-jingtao/my-fastapi-template"
+repository = "https://github.com/wu-jingtao/my-fastapi-template"
+documentation = "https://github.com/wu-jingtao/my-fastapi-template"
+keywords = ["my-fastapi-template"]
 
 [tool.poetry.dependencies]
 python = "^3.12"
+fastapi = {extras = ["all"], version = "^0.109.2"}
 
 [tool.poetry.group.dev.dependencies]
 
